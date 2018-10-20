@@ -70,6 +70,7 @@ public class RoverBotTeleopColorSensorTest extends OpMode{
 
         // Send telemetry message to signify robot waiting;
         telemetry.addData("Say", "Hello Driver");    //
+       // telemetry.addLine("Ball") ;
     }
 
     /*

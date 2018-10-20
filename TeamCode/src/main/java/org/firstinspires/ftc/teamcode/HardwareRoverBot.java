@@ -65,7 +65,7 @@ public class HardwareRoverBot
     public DcMotor  frontLeftDrive  = null;
     public DcMotor  frontRightDrive  = null;
     public ColorSensor colorSensor =null;
-    public DcMotor  lift = null;
+   public DcMotor  lift = null;
   //  public Servo leftClaw = null;
    // public Servo rightClaw = null;
 
@@ -103,7 +103,7 @@ public class HardwareRoverBot
         rearRightDrive.setPower(0);
         frontLeftDrive.setPower(0);
         frontRightDrive.setPower(0);
-        lift.setPower(0);
+          lift.setPower(0);
       //  cubeLift.setPower(0);
 
         // Set all motors to run without encoders.
@@ -112,13 +112,13 @@ public class HardwareRoverBot
         rearRightDrive.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         frontLeftDrive.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         frontRightDrive.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
-        lift.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
+         lift.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 
         rearLeftDrive.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         rearRightDrive.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         frontLeftDrive.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         frontRightDrive.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
-        lift.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+         lift.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
      //   cubeLift.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 
 

@@ -107,11 +107,11 @@ public class RoverBotArcade extends LinearOpMode {
             robot.frontLeftDrive.setPower(left);
             //control the lift
             if (gamepad2.y) {
-                robot.lift.setPower(1);
+           //     robot.lift.setPower(1);
             } else if (gamepad2.a) {
-                robot.lift.setPower(-1);
+         //       robot.lift.setPower(-1);
             } else {
-            robot.lift.setPower(0);
+          //  robot.lift.setPower(0);
             }
 
             sleep(50);

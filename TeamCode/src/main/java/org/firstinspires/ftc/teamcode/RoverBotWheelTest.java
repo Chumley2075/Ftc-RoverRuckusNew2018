@@ -47,7 +47,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-@TeleOp(name="RoverBot: Teleop Tank", group="RoverBot")
+@TeleOp(name="RoverBot: Teleop test", group="RoverBot")
 //@Disabled
 public class RoverBotWheelTest extends OpMode{
 
